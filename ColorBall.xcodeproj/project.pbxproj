@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1725901B5D75E00069AD8D /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A17258F1B5D75E00069AD8D /* Point.swift */; };
+		0A1725921B5D77330069AD8D /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1725911B5D77330069AD8D /* Line.swift */; };
 		0A1FC22D1B55A238009398E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC22C1B55A238009398E5 /* AppDelegate.swift */; };
 		0A1FC22F1B55A238009398E5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC22E1B55A238009398E5 /* GameScene.sks */; };
 		0A1FC2311B55A238009398E5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC2301B55A238009398E5 /* GameScene.swift */; };
@@ -15,6 +17,13 @@
 		0A1FC2381B55A238009398E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC2371B55A238009398E5 /* Images.xcassets */; };
 		0A1FC23B1B55A238009398E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC2391B55A238009398E5 /* LaunchScreen.xib */; };
 		0A1FC2471B55A238009398E5 /* ColorBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC2461B55A238009398E5 /* ColorBallTests.swift */; };
+		0A91BED21B66604800453129 /* MultipleJunctionPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91BED11B66604800453129 /* MultipleJunctionPoint.swift */; };
+		0A91BED41B6679D500453129 /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91BED31B6679D500453129 /* Trigger.swift */; };
+		0A91BED61B6BBDAD00453129 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91BED51B6BBDAC00453129 /* Layout.swift */; };
+		0A91BED81B6FE79200453129 /* StartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91BED71B6FE79200453129 /* StartPoint.swift */; };
+		0A91BEDA1B70EA2400453129 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91BED91B70EA2400453129 /* Bridge.swift */; };
+		0A91BEDF1B7251C600453129 /* ButtonPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91BEDE1B7251C600453129 /* ButtonPoint.swift */; };
+		0AF0C92C1B5FE16100ED1AD2 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF0C92B1B5FE16100ED1AD2 /* Ball.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A17258F1B5D75E00069AD8D /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		0A1725911B5D77330069AD8D /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		0A1FC2271B55A238009398E5 /* ColorBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1FC22B1B55A238009398E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A1FC22C1B55A238009398E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +51,13 @@
 		0A1FC2401B55A238009398E5 /* ColorBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1FC2451B55A238009398E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A1FC2461B55A238009398E5 /* ColorBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBallTests.swift; sourceTree = "<group>"; };
+		0A91BED11B66604800453129 /* MultipleJunctionPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleJunctionPoint.swift; sourceTree = "<group>"; };
+		0A91BED31B6679D500453129 /* Trigger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
+		0A91BED51B6BBDAC00453129 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		0A91BED71B6FE79200453129 /* StartPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPoint.swift; sourceTree = "<group>"; };
+		0A91BED91B70EA2400453129 /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		0A91BEDE1B7251C600453129 /* ButtonPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPoint.swift; sourceTree = "<group>"; };
+		0AF0C92B1B5FE16100ED1AD2 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1725851B583E2C0069AD8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC22C1B55A238009398E5 /* AppDelegate.swift */,
+				0A17258F1B5D75E00069AD8D /* Point.swift */,
+				0A91BEDE1B7251C600453129 /* ButtonPoint.swift */,
+				0A91BED71B6FE79200453129 /* StartPoint.swift */,
+				0A91BED11B66604800453129 /* MultipleJunctionPoint.swift */,
+				0A1725911B5D77330069AD8D /* Line.swift */,
+				0A91BED91B70EA2400453129 /* Bridge.swift */,
+				0A91BED31B6679D500453129 /* Trigger.swift */,
+				0AF0C92B1B5FE16100ED1AD2 /* Ball.swift */,
+				0A91BED51B6BBDAC00453129 /* Layout.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0A1725861B583E360069AD8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC22E1B55A238009398E5 /* GameScene.sks */,
+				0A1FC2301B55A238009398E5 /* GameScene.swift */,
+				0A1FC2321B55A238009398E5 /* GameViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		0A1FC21E1B55A238009398E5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +126,8 @@
 		0A1FC2291B55A238009398E5 /* ColorBall */ = {
 			isa = PBXGroup;
 			children = (
-				0A1FC22C1B55A238009398E5 /* AppDelegate.swift */,
-				0A1FC22E1B55A238009398E5 /* GameScene.sks */,
-				0A1FC2301B55A238009398E5 /* GameScene.swift */,
-				0A1FC2321B55A238009398E5 /* GameViewController.swift */,
+				0A1725861B583E360069AD8D /* View */,
+				0A1725851B583E2C0069AD8D /* Model */,
 				0A1FC2341B55A238009398E5 /* Main.storyboard */,
 				0A1FC2371B55A238009398E5 /* Images.xcassets */,
 				0A1FC2391B55A238009398E5 /* LaunchScreen.xib */,
@@ -162,6 +205,8 @@
 		0A1FC21F1B55A238009398E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Mateus Reckziegel";
 				TargetAttributes = {
@@ -219,9 +264,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF0C92C1B5FE16100ED1AD2 /* Ball.swift in Sources */,
+				0A91BEDA1B70EA2400453129 /* Bridge.swift in Sources */,
+				0A91BEDF1B7251C600453129 /* ButtonPoint.swift in Sources */,
+				0A1725901B5D75E00069AD8D /* Point.swift in Sources */,
+				0A91BED21B66604800453129 /* MultipleJunctionPoint.swift in Sources */,
 				0A1FC2311B55A238009398E5 /* GameScene.swift in Sources */,
+				0A91BED41B6679D500453129 /* Trigger.swift in Sources */,
+				0A91BED61B6BBDAD00453129 /* Layout.swift in Sources */,
 				0A1FC2331B55A238009398E5 /* GameViewController.swift in Sources */,
+				0A91BED81B6FE79200453129 /* StartPoint.swift in Sources */,
 				0A1FC22D1B55A238009398E5 /* AppDelegate.swift in Sources */,
+				0A1725921B5D77330069AD8D /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +473,7 @@
 				0A1FC24C1B55A238009398E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A1FC24D1B55A238009398E5 /* Build configuration list for PBXNativeTarget "ColorBallTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +482,7 @@
 				0A1FC24F1B55A238009398E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
